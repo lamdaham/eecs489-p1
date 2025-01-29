@@ -52,7 +52,7 @@ class AssignmentNetworks(Topo):
         self.addLink(s2, s4, bw=30, delay='30ms')
         self.addLink(s3, s5, bw=25, delay='5ms')
         self.addLink(s5, s6, bw=25, delay='5ms')
-        
+  
         
 if __name__ == '__main__':
     setLogLevel( 'info' )
